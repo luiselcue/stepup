@@ -1,0 +1,19 @@
+/*
+Theme Name:  Twenty Twenty-Two child.
+Theme URI:  https://github.com/luiselcue/stepup.com.mx
+Description:  child theme for Stepup, mexican dance school
+Author:  Luis Cuevas
+Author URI:  https://qecrea.es/
+Template:  twentytwentytwo
+Version:  1.0
+Text Domain: twentytwentytwo-child
+License:  GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html                 
+*/
+
+.header-featured-image, .home-featured-image {
+	position: fixed;
+	top: 0;
+	min-width: 100%;
+	z-index: -1;
+}
