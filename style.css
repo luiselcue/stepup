@@ -11,9 +11,13 @@ License:  GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html                 
 */
 
-.header-featured-image, .home-featured-image {
+.header-featured-image {
 	position: fixed;
 	top: 0;
 	min-width: 100%;
-	z-index: -1;
+}
+
+main {
+	position: relative;
+	z-index: 2;
 }
